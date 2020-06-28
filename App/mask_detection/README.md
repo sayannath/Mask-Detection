@@ -1,4 +1,4 @@
-# mask_detection
+# Mask Detection
 
 A Flutter project which detects whether the person is wearing mask or not.
 
