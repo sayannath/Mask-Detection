@@ -1,10 +1,11 @@
 # mask_detection
 
-A new Flutter project.
+A Flutter project which detects whether the person is wearing mask or not.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+* To run this, hit the command.
+> flutter run
 
 A few resources to get you started if this is your first Flutter project:
 
