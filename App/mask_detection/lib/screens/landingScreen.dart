@@ -30,7 +30,7 @@ class _LandingPageState extends State<LandingPage> {
             Align(
               alignment: Alignment.topLeft,
               child: Text(
-                "ASL Detection.",
+                "Mask Detection.",
                 textAlign: TextAlign.start,
                 style: TextStyle(
                   color: Color(0xff375079),
@@ -43,7 +43,7 @@ class _LandingPageState extends State<LandingPage> {
             Align(
               alignment: Alignment.topLeft,
               child: Text(
-                "This app lets you to\ndetect letters by using\nImage Detection.",
+                "This app lets you to\ndetect mask by using\nImage Detection.",
                 textAlign: TextAlign.justify,
                 style: TextStyle(
                   color: Color(0xff878787),
@@ -68,7 +68,7 @@ class _LandingPageState extends State<LandingPage> {
                   Align(
                     alignment: Alignment.topLeft,
                     child: Text(
-                      "Use our image analyser to detect\nthe letters.",
+                      "Use our image analyser to detect\nthe mask.",
                       style: TextStyle(
                           color: Color(0xff41A1FF),
                           fontSize: 15,
@@ -87,16 +87,6 @@ class _LandingPageState extends State<LandingPage> {
                     size: 30,
                   ),
                   SizedBox(width: MediaQuery.of(context).size.width * 0.05),
-                  Align(
-                    alignment: Alignment.topLeft,
-                    child: Text(
-                      "Converts texts to speech\nwith a tap.",
-                      style: TextStyle(
-                          color: Color(0xff41A1FF),
-                          fontSize: 15,
-                          fontFamily: "Roboto"),
-                    ),
-                  ),
                 ]),
             SizedBox(height: MediaQuery.of(context).size.height * 0.27),
             Row(
@@ -105,7 +95,7 @@ class _LandingPageState extends State<LandingPage> {
                 Align(
                   alignment: Alignment.bottomLeft,
                   child: Text(
-                    "ASL Detection",
+                    "Mask Detection",
                     style: TextStyle(
                       color: Color(0xff375079),
                       fontFamily: "Roboto",
@@ -128,7 +118,7 @@ class _LandingPageState extends State<LandingPage> {
         onPressed: () {
           Navigator.of(context).pushReplacement(
               new MaterialPageRoute(builder: (BuildContext context) {
-            return DetectScreen(title: 'ASL Detection');
+            return DetectScreen(title: 'Mask Detection');
           }));
         },
       ),

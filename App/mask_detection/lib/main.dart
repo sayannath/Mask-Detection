@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     ]);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'ASL Detection',
+      title: 'Mask Detection',
       theme: ThemeData(
         primaryColor: Color(0xff375079),
       ),
