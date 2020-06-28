@@ -6,6 +6,9 @@ An app to determine whether a person has wore a mask or not.
 
 ### 👉 If you like this repo then please give it a ⭐️
 
+## Dataset: 
+> Link - https://drive.google.com/file/d/1v5WDubjHABvOIeQ4YLfZk8_IlxumKDiw/view?usp=sharing
+
 ## NOTE:
 This project is subject to change by the developer and is still in development
 
