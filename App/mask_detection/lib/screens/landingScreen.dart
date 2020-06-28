@@ -76,18 +76,6 @@ class _LandingPageState extends State<LandingPage> {
                     ),
                   ),
                 ]),
-            SizedBox(height: 15),
-            Row(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: <Widget>[
-                  Icon(
-                    Icons.volume_up,
-                    color: Color(0xff3ACCE1),
-                    size: 30,
-                  ),
-                  SizedBox(width: MediaQuery.of(context).size.width * 0.05),
-                ]),
             SizedBox(height: MediaQuery.of(context).size.height * 0.27),
             Row(
               crossAxisAlignment: CrossAxisAlignment.center,
