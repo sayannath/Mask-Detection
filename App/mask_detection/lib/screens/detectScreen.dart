@@ -19,7 +19,6 @@ class _DetectScreenState extends State<DetectScreen>
     with TickerProviderStateMixin {
   AnimationController _colorAnimController;
   Animation _colorTween;
-
   List<Result> outputs;
 
   void initState() {
@@ -132,17 +131,6 @@ class _DetectScreenState extends State<DetectScreen>
                           style: TextStyle(
                             color: _colorTween.value,
                             fontSize: 16.0,
-                          ),
-                        ),
-                        Center(
-                          child: FlatButton(
-                            onPressed: () {
-                            },
-                            child: Icon(
-                              Icons.play_arrow,
-                              size: 60,
-                              color: Color(0xff375079),
-                            ),
                           ),
                         ),
                       ],
