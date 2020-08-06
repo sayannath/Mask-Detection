@@ -16,7 +16,7 @@ class TFLiteHelper {
     AppHelper.log("loadModel", "Loading model..");
 
     return Tflite.loadModel(
-      model: "assets/tflite/converted_model.tflite",
+      model: "assets/tflite/model_unquant.tflite",
       labels: "assets/tflite/labels.txt",
     );
   }
